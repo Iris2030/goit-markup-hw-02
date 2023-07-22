@@ -1,0 +1,226 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--main-background-color);
+    color: var(--text-color);
+    margin: 0;
+    letter-spacing: 0.32px;;
+    line-height: 1.5;
+
+    --main-background-color: #fff;
+    --secondary-background-color: #f4f4fd;
+    --main-dark-color: #2e2f42;
+    --text-color: #434455;
+    --white-text-color: #ffffff;
+    --light-text-color: #f4f4fd;
+    --accent-color: #4d5ae5;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    font-style: normal;
+    text-decoration: none;
+    color: inherit;
+}
+
+.header {
+    padding: 24px 156px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-nav {
+    color: var(--main-dark-color);
+    display: flex;
+    align-items: center;
+    height: 72px;
+    width: auto;
+}
+
+.site-nav__logo {
+    font-family: 'Raleway', sans-serif;
+    margin-right: 76px;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21px;
+}
+
+.site-nav .site-nav__list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.site-nav__list > li:not(:last-child) {
+    margin-right: 40px;
+}
+
+.adress .adress__list {
+    display: flex;
+    align-items: center;
+}
+
+.adress__list > li:not(:last-child) {
+    margin-right: 40px;
+}
+
+.accent {
+    color: var(--accent-color);
+}
+
+.hero {
+    height: 600px;
+    width: auto;
+    color: var(--white-text-color);
+    background-color: var(--main-dark-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero__title {
+    margin-bottom: 48px;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+}
+
+.hero__button {
+    padding: 16px 32px;
+    color: var(--white-text-color);
+    background-color: var(--accent-color);
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.values {
+    padding: 120px 156px;
+}
+
+.values__title {
+    display: none;
+}
+
+.values__subtitle {
+    color: var(--main-dark-color);
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.values__list {
+    display: flex;
+}
+
+.values__item:not(:last-child) {
+    margin-right: 24px;
+}
+
+.work {
+    padding: 0 156px 140px 156px;
+}
+
+.work__title {
+    text-align: center;
+    margin-bottom: 72px;
+    color: var(--main-dark-color);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+}
+
+.work__list {
+    display: flex;
+}
+
+.work__list li:not(:last-child) {
+    margin-right: 24px;
+}
+
+.team {
+    padding: 120px 156px 120px 156px;
+    background-color: var(--secondary-background-color);
+}
+
+.team__title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    color: var(--main-dark-color);
+    text-align: center;
+    margin-bottom: 72px;
+}
+
+.team__list {
+    display: flex;
+}
+
+.team__list li:not(:last-child) {
+    margin-right: 24px;
+}
+
+.team__item {
+    background-color: var(--main-background-color);
+    text-align: center;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+        0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.team__subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    margin-top: 32px;
+    margin-bottom: 8px;
+    color: var(--main-dark-color);
+}
+
+.team__text {
+    padding-bottom: 32px;
+}
+
+.footer {
+    padding: 100px 156px;
+    background-color: var(--main-dark-color);
+    color: var(--light-text-color);
+}
+
+.footer__logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.16;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.footer__text{
+margin-top: 18px;
+}
