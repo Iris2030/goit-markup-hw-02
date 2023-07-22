@@ -124,6 +124,10 @@ ul {
     /* margin-right: 40px; */
 }
 
+.adress__link{
+    color:var(--text-color)
+}
+
 .adress__link:hover,
 .adress__link:focus {
     color: var(--accent-color-hover);
@@ -364,3 +368,7 @@ ul {
     border-right: 1px solid var(--border-color);
     padding: 32px 16px;
 } */
+
+.gallery__images-text{
+    color: var(--text-color);
+}
